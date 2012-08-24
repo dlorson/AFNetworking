@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
   s.authors  = {'Mattt Thompson' => 'm@mattt.me', 'Scott Raymond' => 'sco@gowalla.com'}
   s.source   = { :git => 'https://github.com/dlorson/AFNetworking.git', :tag => '0.10.0' }
-  s.source_files = 'AFNetworking/*.h', 'AFNetworking/AFJSONUtilities.m'
+  s.source_files = 'AFNetworking/AFJSONUtilities.m', 'AFNetworking/*.h'
   s.clean_paths = ['iOS Example', 'Mac Example', 'AFNetworking.xcworkspace']
   s.framework = 'SystemConfiguration'
 end
